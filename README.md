@@ -51,6 +51,11 @@ Styled components and global styles for the application.
 
 - **`GlobalStyles.js`**: Global CSS styles applied across the app for consistent look and feel.
 
+### `db.json`
+
+- **`db.json`**: A file used for local development with a mock API server. It simulates the backend database and provides endpoints for tasks data. This file allows for quick setup and testing of the frontend application without requiring a real backend server. It is typically used in conjunction with tools like [json-server](https://github.com/typicode/json-server) to create a REST API for development purposes.
+
+
 ### File Descriptions
 
 - **`App.js`**: The root component that integrates all other components. Manages global state and renders the main UI, including task filtering and the task list.
